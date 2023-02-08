@@ -11,8 +11,8 @@ body {
     flex-wrap: wrap;
     font-family: "Montserrat", sans-serif;
     justify-content: center;
-    margin: 3rem 2rem 5rem 2rem;
-    gap: 4rem;
+    gap: 15rem;
+    margin-top: 2rem;
     
 }
 
@@ -24,12 +24,18 @@ a{
 
 }
 .section1, .section2 {
-    text-align: center
+    text-align: center;
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    border: solid red;
 }
 p {
+    width: 100%;
+    height: auto;
     max-width: 40rem;
     letter-spacing: 1px;
-    padding: 12rem 4rem 11rem 4rem;
+    padding: 12rem 1rem 11rem 1rem;
     font-size: large;
  
 }
@@ -57,11 +63,19 @@ h2 {
     display: flex;
     justify-content: space-evenly;
 }
+.actions {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+
+}
 .actions *{
     color: white;
     background-color: black;
-    padding: 1rem 2rem 1rem 2rem;
-    margin: 0 4rem 0 4rem;
+    padding: 1rem 2rem 1rem 2rem;  
+    
 }
 
 a:hover {
