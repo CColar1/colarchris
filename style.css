@@ -8,76 +8,63 @@
 
 body {
     display: flex;
-   
     flex-wrap: wrap;
     font-family: "Montserrat", sans-serif;
-    min-width: 40rem;
     justify-content: center;
-    
+    margin: 3rem 2rem 5rem 2rem;
+    gap: 4rem;
     
 }
 
-a{
-    color: inherit;
+a{  
+    color:inherit;
     text-decoration: none;
+    
+
 
 }
 .section1, .section2 {
-    width: 60rem;
-    
-   
-}
-.section2{
-    background-color: #edf0f2;
-}
-.container1, .container2 {
-    margin: 7rem;
-    text-align: center;
-}
-.photo {
-    width: 20rem;
-    border-radius: 50%;
-    margin-bottom: 2rem ;
-}
-h1 {
-    font-size: 4rem;
-    min-width: 35rem;
-}
-h2 {
-    margin-bottom: 8rem;
-    
-}
-.email {
-    color: #f1ebeb;
-    background-color: black;
-    padding: 1rem 2rem 1rem 2rem;   
-}
-.icons {
-    margin: 5rem 0 5rem 0;
-    min-width:auto;
-}
-.icons *{
-    padding: 0 2rem 0 2rem;
+    text-align: center
 }
 p {
-   
-    padding: 5rem 0 5rem 0;
-    font-size: larger;
-    letter-spacing: 2px;
-    margin-top: 9rem;
+    max-width: 40rem;
+    letter-spacing: 1px;
+    padding: 12rem 4rem 11rem 4rem;
+    font-size: large;
+ 
 }
-.actions {
-   
+.photo {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding: 2rem;
+}
+h1 {
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+h2 {
+    padding: 0 0 4rem 0;
+}
+.email{
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+}
+.icons {
+    padding: 5rem 1rem 3rem 1rem;
     display: flex;
     justify-content: space-evenly;
-    min-width: auto;
 }
 .actions *{
-background-color: black;
-color: #f1ebeb;
-    padding: 1rem 2rem 1rem 2rem; 
+    color: white;
+    background-color: black;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 0 4rem 0 4rem;
 }
+
 a:hover {
-    color: aquamarine;
-    opacity: 1;
+    background-color: #4fb6cf;
+    color: white;
 }
